@@ -7,20 +7,22 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            Marco Ziccardi
+tagline:          ''
+description:      'Half computer scientist, half software engineer, half sport and montain addict.'
+url:              http://mziccard.me
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Marco Ziccardi'
+  url:            https://twitter.com/mziccard
 
 paginate:         5
 
 # Custom vars
-version:          2.1.0
-
+logo:             mziccard.jpg
+twitter:          mziccard
+disqus_shortname: mziccard
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/mziccard.github.io
+  user:           mziccard
