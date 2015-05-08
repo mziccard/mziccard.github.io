@@ -27,15 +27,16 @@ Modulo can be easily translated into a bitwise `AND` if
 the divisor is a power of two. Consider, for instance, 
 the following C code:
 
-```
+{% highlight C %}
 int remainder = value % 1024;
-```
+{% endhighlight %}
 
 It can be translated into:
 
-```
+{% highlight C %}
 int remainder = value & 0x3FF;
-```
+{% endhighlight %}
+
 In general, if `divisor` is a power 
 `n` of two, the modulo operation can be translated to 
 a bitwise AND with `divisor-1`. Similarly, 
@@ -52,7 +53,7 @@ performance of the application when compared to
 using the bitwise and?  
 To answer to this question I run the following C program on an x86 machine:
 
-```
+{% highlight C %}
 int main(int argc, char** argv) {
   int remainder;
   int value = 1301081;
@@ -63,7 +64,8 @@ int main(int argc, char** argv) {
     i++;
   }
 }
-```
+{% endhighlight %}
+
 And compared its execution times with the same program 
 implemented using binary AND (`&`) operator.
 Results are shown below (1000 runs of the program 
