@@ -1,13 +1,65 @@
 ---
 layout: default
+comments: true
 ---
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
+  <div style="display:inline-block; width:100%">
+  <div style="float:left">
+    <span class="post-date">{{ page.date | date_to_string }}</span>
+  </div>
+  <div class="social-share" style="float:right">
+  <ul class="share-list" align="center">
+  <li class="share-item twitter">
+    <a href="https://twitter.com/intent/tweet?text={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter }}" 
+        title="Share on Twitter" target="_blank">
+      <i class='icon fi-social-twitter'></i>
+      <span class="label">Twitter</span>
+    </a>
+  </li>
+
+  <!-- GitHub -->
+  <li class="share-item facebook">
+    <a href="https://www.facebook.com/sharer/sharer.php?t={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ page.title }}&u={{ site.url }}{{ page.url }}"
+        title="Share on Facebook" target="_blank">
+      <i class='icon fi-social-facebook'></i>
+      <span class="label">GitHub</span>
+    </a>
+  </li>
+
+    <!-- LinkedIn -->
+    <li class="share-item gplus">
+      <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}"
+          title="Share on Google+" target="_blank">
+        <i class='icon fi-social-google-plus'></i>
+        <span class="label">LinkedIn</span>
+      </a>
+    </li>
+  </ul>
+  </div>
+  </div>
   {{ content }}
 </div>
 
+{% if page.comments %}
+<section class="post-comments">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      var disqus_shortname = '{{ site.disqus_shortname }}'; // required: replace example with your forum shortname
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+{% endif %}
+
+<!--
 <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
@@ -23,3 +75,5 @@ layout: default
     {% endfor %}
   </ul>
 </div>
+-->
+
