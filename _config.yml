@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            Marco Ziccardi
 tagline:          ''
-description:      'Half computer scientist, half software engineer, half sport and montain addict.'
+description:      'Half computer scientist, half software engineer, half sport and mountain addict.'
 url:              http://mziccard.me
 baseurl:          /
 
