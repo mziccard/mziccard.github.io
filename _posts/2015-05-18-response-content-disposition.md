@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Overriding Content-Disposition and Content-Type on Google Cloud Storage and Amazon S3
+description: How to override the Content-Disposition and Content-Type of Google Cloud Storage and Amazon S3 HTTP responses
+keywords: Google, Amazon, storage, cloud, AWS, S3, Content-Type, Content-Disposition, response-content-type, response-content-disposition
 ---
 
 I have been struggling to override the Content-Disposition and Content-Type 

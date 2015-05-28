@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Modulo and Division vs Bitwise Operations
+description: Performance comparison of hardware division (modulo) instructions and bitwise operations
+keywords: modulo, division, hardware, assembly, x86, bitwise, and, or, xor
 ---
 
 The modulo and integer division operators are widely used by 
