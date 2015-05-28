@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            Marco Ziccardi
 tagline:          ''
-description:      'Half computer scientist, half software engineer, half sport and mountain addict.'
+description:      'Marco Ziccardi - Half computer scientist, half software engineer, half sport and mountain addict.'
 url:              http://mziccard.me
 baseurl:          /
 
@@ -26,3 +26,4 @@ disqus_shortname: mziccard
 github:
   repo:           https://github.com/mziccard.github.io
   user:           mziccard
+keywords:         'programming, computer science, software engineering, mathematics, algorithms'
