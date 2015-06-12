@@ -72,7 +72,7 @@ And compared its execution times with the same program
 implemented using binary AND (`&`) operator.
 Results are shown below (1000 runs of the program 
 for both `%` and `&` versions):
-![alt text](/public/images/MODvsANDresults.png "Comparison of modulo and bitwise AND")
+![Comparison of modulo and bitwise AND](/public/images/MODvsANDresults.png "Comparison of modulo and bitwise AND")
 As you can see, in the average case the program with 
 the modulo operation is 62% slower than the one 
 using `&` operator.
