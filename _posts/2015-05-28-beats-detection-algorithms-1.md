@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Beat Detection Algorithms (Part 1)
-description: Two simple beat detection algorithms and their scala implementation
+description: Two simple beat detection algorithms and their Scala implementation
 keywords: sound processing, BPM, audio, scala, tempo, algorithms
 ---
 
@@ -55,7 +55,7 @@ block to be a beat. The variance inside a window of blocks is defined as:
 This first algorithm is very easy to implement and fast to execute. 
 However, the results computed are rather imprecise. To evaluate it add the 
 [scala-audio-file](https://github.com/mziccard/scala-audio-file) library 
-to you project and instantiate the `SoundEnergyBPMDetector` class as: 
+to your project and instantiate the `SoundEnergyBPMDetector` class as: 
 
 ```scala
 val audioFile = WavFile("filename.wav")
@@ -110,7 +110,7 @@ the track's tempo the one with the highest count.
 This second algorithm is also very fast and provides better results than 
 the first one. To evaluate it, add the 
 [scala-audio-file](https://github.com/mziccard/scala-audio-file) library 
-to you project and instantiate the `FilterBPMDetector` class as: 
+to your project and instantiate the `FilterBPMDetector` class as: 
 
 ```scala
 val audioFile = WavFile("filename.wav")
