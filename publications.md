@@ -5,9 +5,13 @@ title: Publications
 
 ### Conferences
 
+- M. Ziccardi, E. Mezzetti, T. Vardanega, J. Abella, F.J. Cazorla  
+_"EPC: Extended Path Coverage for Measurement-based Probabilistic Timing Analysis"_  
+Proceedings of the IEEE Real-Time Systems Symposium (RTSS) 2015. (To appear)
+
 - P. Ryan Conmy, M. Pearce, M. Ziccardi, E. Mezzetti, T. Vardanega, J. Anderson, A. Gianarro, C. Hernandez, F.J. Cazorla  
 _"Measurement-Based Probabilistic Timing Analysis: From Academia to Space Industry"_  
-Proceedings of International Conference on Space System Engineering (DASIA) 2015.
+Proceedings of the International Conference on Space System Engineering (DASIA) 2015.
 
 - M. Ziccardi, M. Schoeberl, T. Vardanega  
 _"A Time-Composable Operating System for the Patmos Processor"_  
