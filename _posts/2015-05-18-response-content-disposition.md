@@ -30,7 +30,7 @@ Given a signed URL, you can override
 the Content-Disposition to download the file as `newfile.ext2`:  
 
 ```
-<signed URL>&response-content-disposition="attachment; filename=newfile.ext2"
+<signed URL>&response-content-disposition=attachment; filename="newfile.ext2"
 ```
 
 More details on Content-Disposition header's format can 
