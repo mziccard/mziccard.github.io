@@ -5,6 +5,9 @@ description: Node.js module for fast sorting implementing the TimSort algorithm
 keywords: sort, compare, TimSort, algorithm, python, performance
 ---
 
+> **UPDATE:** Benchmark results of Node-TimSort with Node.js v4.1.1 available 
+[here](/2015/09/27/node-timsort-performance-node-4/).
+
 TimSort is an adaptive and **stable** sort algorithm based on merging that requires fewer than nlog(n) 
 comparisons when run on partially sorted arrays. The algorithm uses O(n) memory and still runs in O(nlogn) 
 (worst case) on random arrays.  
@@ -154,6 +157,7 @@ results are very similar), obtaining the following values:
 <tr>
   <td>10000</td><td>2351346</td><td>5149683</td><td>2.19</td>
 </tr>
+</tbody>
 </table>
 
 `TimSort.sort` **is faster** than `array.sort` on any of the tested array types. 
