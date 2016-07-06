@@ -65,8 +65,8 @@ val tempo = SoundEnergyBPMDetector(audioFile).bpm
 ###Low Pass Filter Algorithm
 
 This second algorithm is based on a 
-[post](http://tech.beatport.com/2014/web-audio/beat-detection-using-web-audio/) 
-on the Beatport's engineering blog by Joe Sullivan. 
+[post](http://joesul.li/van/beat-detection-using-web-audio/) 
+originally hosted on Beatport's engineering blog by Joe Sullivan. 
 The original article uses the 
 [Web Audio Api](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) 
 to implement browser-side beat detection. A similar but more extensible 
